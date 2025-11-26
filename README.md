@@ -1,7 +1,6 @@
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg) 
 
 
-
 <div align='center'>
 
 ![Geo-Phone](https://img.shields.io/badge/Geo-Phone-blue.svg) 
@@ -13,6 +12,17 @@
 # Geo-Phone
 
 **Geo-Phone** is an OSINT tool that enables users to track and map phone numbers from around the world. With a user-friendly interface, **GeoPhone** provides quick insights into the origin of any phone number, displaying the country and marking an approximate location on a map. 
+
+## 🆕 NEW: Telegram Bot Available!
+
+Now you can use Geo-Phone directly through Telegram! Check out the [Telegram Bot Setup Guide](TELEGRAM_BOT_README.md) for easy deployment.
+
+**Quick Start:**
+```bash
+pip install -r requirements_telegram.txt
+export TELEGRAM_BOT_TOKEN='your_token'
+python3 telegram_bot.py
+```
 
 ## Tested on:
 - *Termux*
@@ -79,6 +89,18 @@ Download and Install kali-linux from their official website and type following c
             | python3 phone.py -a F30N1X            | About Tool & Author
             | python3 phone.py -c 234 -p 7000000000 | Specify victim's Country Code & Phone Number
 ```
+
+## 🤖 Telegram Bot Usage:
+
+See [TELEGRAM_BOT_README.md](TELEGRAM_BOT_README.md) for complete setup instructions.
+
+**Features:**
+- 📱 Phone number validation
+- 🌍 Country & location info
+- 📡 Carrier identification
+- 🗺️ Interactive maps
+- 💬 Easy Telegram interface
+
 ### Geo-Phone Map
 A sample of **Geo Phone** outputed map:
 
