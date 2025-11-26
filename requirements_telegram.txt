@@ -1,0 +1,5 @@
+python-telegram-bot==20.7
+phonenumbers==8.13.26
+opencage==2.3.0
+countryinfo==0.1.2
+requests==2.31.0
